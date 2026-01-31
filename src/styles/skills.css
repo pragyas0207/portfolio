@@ -1,0 +1,14 @@
+.skills-pg {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    background: linear-gradient(135deg, rgb(240, 162, 73), rgb(250, 125, 146), rgb(246, 164, 88));
+}
+.skills-card{
+    border: 2px solid purple;
+    width:70%;
+    height:60%
+}

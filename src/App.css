@@ -1,0 +1,43 @@
+/* html, body, #root{
+  height: 100%;
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color:white;
+}
+
+.homepg {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(240, 7, 244);
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("https://t3.ftcdn.net/jpg/17/50/37/84/360_F_1750378415_D4xaC2yo6XUC9wLZ9E9UqWeyzhPXcd6U.jpg");
+  background-size: cover;
+}
+.home-content{
+    display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  top:-100px;
+  text-align: center;
+}
+h1 {
+  border: 2px solid red;
+  font-size: 50px;
+  color:white;
+}
+p{
+  font-size: 22px;
+  font-weight: 600;
+}
+/* span {
+  background: linear-gradient(90deg, #1a338c, #b121be);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */

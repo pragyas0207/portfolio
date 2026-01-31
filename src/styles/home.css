@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Playwrite+HU:wght@100..400&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* color:white; */
+  z-index: 1000;
+}
+
+.homepg {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid rgb(240, 7, 244); */
+  width: 100%;
+  /* overflow: hidden;
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("https://p0.piqsels.com/preview/740/194/513/daylight-desktop-backgrounds-hd-wallpaper-landscape.jpg");
+  background-size: cover; */
+  /* background: linear-gradient(135deg,#c9def4,#f5ccd4,#b8a4c9); */
+  background: linear-gradient(135deg,#ef709b,#fa9372);
+  /* background: linear-gradient(135deg,#dd83ad,#c3e1fc); */
+  /* background: linear-gradient(135deg,#b597f6,#96c6ea); */
+  /* background: linear-gradient(135deg,rgb(30, 150, 180),rgb(221, 25, 188)); */
+  color:white
+}
+.home-content{
+  /* border:2px solid black; */
+  padding:220px 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(252, 177, 177);
+  box-shadow: 0 30px 40px rgba(0,0,0,0.4);
+  text-align: center;
+  font-family: 'Outfit',sans-serif;
+  gap:20px;
+  text-shadow: 0 20px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 40px;
+  border: 1.5px solid rgb(195, 134, 134);
+  position: relative;
+}
+.home-content h1{
+  transform: translateY(-40px);
+  /* border: 2px solid red; */
+  font-size: 50px;
+  /* color:rgb(113, 107, 107); */
+  color: #5a3d3d;
+}
+.home-content p{
+transform: translateY(-40px);
+  font-size: 24px;
+  margin-bottom: 20px;
+  opacity: 0.85;
+  font-weight: 400;
+  /* color:rgb(77, 71, 71); */
+  color: #6b4b4b;
+  line-height: 1.7;
+}
+
+.buttons{
+  transform: translateY(-40px);
+  display: flex;
+  gap:40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn1{
+    padding:10px 20px;
+    font-size: 20px;
+    border:1.5px solid white;
+    border-radius: 40px;
+    width:fit-content;
+    align-self: center;
+    text-decoration: none;
+    color: white;
+    /* transition: all 0.3s ease; */
+}
+.btn1:hover{
+    background: rgb(92, 31, 31);
+  transform: translateY(-2px);
+}
+.btn1{
+  background: #f5627d;
+  color: white;
+  border: none;
+}
+
+.btn2{
+  padding:10px 20px;
+    font-size: 20px;
+    border:1.5px solid white;
+    border-radius: 40px;
+    width:fit-content;
+    align-self: center;
+    text-decoration: none;
+    color: white;
+}
+
+.btn2:hover{
+    background: rgb(92, 31, 31);
+  transform: translateY(-2px);
+}
+.btn2{
+  background: #f5627d;
+  color: white;
+  border: none;
+}
+
+.socials {
+  margin-top: 24px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.socials a {
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  border: 1.5px solid rgba(90, 61, 61, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #5a3d3d;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+.socials a:hover {
+  background: #ff8fa3;
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}

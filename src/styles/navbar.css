@@ -1,0 +1,46 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 16px 40px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+/*  background: rgba(0, 0, 0, 0.3);  transparent
+  backdrop-filter: blur(8px);     glass effect */
+  /* -webkit-backdrop-filter: blur(10px); */
+
+  z-index: 1000;
+}
+
+.nav-links {
+  display: flex;
+  gap: 70px;
+  list-style: none;
+  font-size: 22px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a:hover{
+    /* text-decoration: underline; */
+    font-weight: 600;
+}
+
+.logo{
+    color:white;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+}
+.logo:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
