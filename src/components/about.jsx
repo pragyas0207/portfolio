@@ -5,9 +5,13 @@ function About() {
             <div className="about">
                 <div className="about-content">
                     <h2>About Me</h2>
-                    <p>I’m Pragya, a frontend developer focused on creating clean, responsive, and intuitive user interfaces. I enjoy working with React and modern CSS to build engaging web experiences. In parallel, I’m exploring Computer Vision and AI/ML, experimenting with how intelligent models and visual data can be integrated into practical applications. I’m driven by learning through projects and improving how users interact with technology.
-                     </p>
-                     <p>If you don't find me...I'll be coding fun stuff or serial reading all the mystery novels.</p>
+                    <p>I'm a Computer Science Engineering student who enjoys building clean, functional web experiences and understanding how real-world products are designed. I like turning ideas into small, usable projects and learning by actually building things. Currently, I'm focused on frontend development while also exploring computer vision through hands-on Python projects. I'm interested in how software, design, and intelligent systems come together, and I'm continuously learning and experimenting to improve my skills.
+                        <br /> <br/>
+
+                        <b>Currently working with</b>: React, JavaScript, HTML, CSS, Python, Git, GitHub<br/>
+                        <b>Exploring</b>: Computer Vision, Machine Learning basics
+                    </p>
+                    <p></p>
                 </div>
             </div>
         </>

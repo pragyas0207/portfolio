@@ -10,5 +10,9 @@
 .skills-card{
     border: 2px solid purple;
     width:70%;
-    height:60%
+    height:60%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    align-items: flex-start;
 }
