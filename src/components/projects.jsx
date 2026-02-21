@@ -26,6 +26,21 @@ export default function Projects(){
             link="#"
             />
             <ProjectCard
+            title="House Price Prediction - Model Comparision"
+            description="Implemented and compared multiple regression models to predict house prices using structured housing data.
+Evaluated model performance using metrics like MAE and validation error to select the best-performing algorithm."
+            tech="Python"
+            link="https://github.com/pragyas0207/house-price-prediction-model-comparison"
+            />
+            <ProjectCard
+            title="Anaemia Risk Prediction"
+            description="Built a machine learning model to predict anaemia using patient hemoglobin levels, pixel color features, and gender.
+Compared Logistic Regression, Decision Tree, and Random Forest, achieving ~95% accuracy with strong F1-score on imbalanced data.
+Performed feature importance analysis and probability-based predictions for new patients."
+            tech="Python"
+            link="https://github.com/pragyas0207/anaemia-prediction-model"
+            />
+            <ProjectCard
             title="Cows & Bulls Game"
             description="Made a simple Cows & Bulls which generates random numbers for us to guess. Everytime user inputs a 3 or 4 or 5 digit number, It checks and returns whether a cow or Bull"
             tech="Python"
