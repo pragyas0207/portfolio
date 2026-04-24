@@ -11,7 +11,7 @@ function Home() {
 
           <h1>Hi, I'm <span>Pragya</span></h1>
           {/* <p>Frontend Developer crafting clean UIs</p> */}
-          <p>Blahhh Blaaahhhh Blaaahhhh Blaaaaahhhhh</p>
+          <p>Building data-driven systems using Machine Learning | Exploring Computer Vision</p>
           <div className="buttons">
             <Link to="/projects" className="btn2">View Projects</Link>
             <Link to="/contact" className="btn1">Get In Touch</Link>

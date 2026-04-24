@@ -1,5 +1,5 @@
 import "../styles/contact.css"
-import linkedin from "../assets/icons/linkedin-brands-solid-full.svg"
+import mail from "../assets/icons/icons8-mail.svg"
 
 
 export default function Contact() {
@@ -7,12 +7,16 @@ export default function Contact() {
         <div className="contact">
             <div className="contact-text">
                 <h2>Let's Chat!</h2>
-                <p>Feel free to reach out — I'm always open to learning, collaboration, and new opportunities.</p>
+                <p>Always up for building something cool, collaborating, or just a good conversation</p>
 
                 <div className="contacts">
-                    <a href="https://www.linkedin.com/in/pragya-chowdary-s-6963a8377/" target="_blank">
-                        <img src={linkedin} alt="LinkedIn" />
-                    </a>
+                    <div className="icon">
+                        <img src={mail} alt="GMail" />
+                    </div>
+                    <div className="info">
+                        <p>Mail me at:</p>
+                        <p>pragyasriramaneni@gmail.com</p>
+                    </div>
                 </div>
             </div>
         </div>

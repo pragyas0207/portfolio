@@ -27,7 +27,7 @@
 }
 .home-content{
   /* border:2px solid black; */
-  padding:220px 400px;
+  padding:160px 180px;
   display: flex;
   flex-direction: column;
   background-color: rgb(252, 177, 177);
@@ -43,7 +43,7 @@
 .home-content h1{
   transform: translateY(-40px);
   /* border: 2px solid red; */
-  font-size: 50px;
+  font-size: 60px;
   /* color:rgb(113, 107, 107); */
   color: #5a3d3d;
 }
@@ -61,6 +61,7 @@ transform: translateY(-40px);
 .buttons{
   transform: translateY(-40px);
   display: flex;
+  margin-top: 30px;
   gap:40px;
   align-items: center;
   justify-content: center;
@@ -109,7 +110,7 @@ transform: translateY(-40px);
 }
 
 .socials {
-  margin-top: 24px;
+  /* margin-top: 0px; */
   display: flex;
   gap: 20px;
   justify-content: center;

@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     background: linear-gradient(135deg, #ec8c69, #e791b8);
-    padding: 120px 8%;
+    padding: 10px 8%;
 }
 .contact-text{
     display: flex;
@@ -13,25 +13,50 @@
     justify-content: center;
     align-items: center;
     font-size: 24px;
-    border: 2px solid white;
     position: relative;
-    top:-50px;
+    top:-100px;
 }
 .contact-text h2{
     margin-top: 28px;
     font-size: 58px;
+     color: #4d2525;
 }
 .contact-text p{
     font-size: 28px;
+     color: #6b4b4b;
 }
 .contacts{
     margin-top: 24px;
-  display: flex;
+  display:flex;
+    justify-content: center;
+    flex-direction: column;
   gap: 20px;
-  justify-content: center;
     margin-top: 50px;
-    border: 2px solid black;
 }
+.icon{
+/* border: 2px solid white; */
+width: 100%;
+display: flex;
+justify-content: center;
+}
+.contacts img{
+    width: 44px;
+    height: 44px;
+}
+.contacts .info{
+    margin-top: -20px;
+    width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: left;
+align-items: center;
+}
+.contacts p{
+    font-size: 20px;
+    color: #4d2525;
+    /* margin-top: -20px; */
+}
+
 /* .contacts p{
     margin-left: 20px;
     margin-right: 20px;
